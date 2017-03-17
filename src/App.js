@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import * as firebase from 'firebase';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+
+    };
+  }
   render() {
     return (
       <div className="App">
