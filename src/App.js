@@ -10,6 +10,13 @@ class App extends Component {
       speed: 20
     };
   }
+
+  componentDidMount() {
+    this.setState({
+      speed: 50
+    })
+  }
+
   render() {
     return (
       <div className="App">
