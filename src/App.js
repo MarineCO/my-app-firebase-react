@@ -12,9 +12,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({
-      speed: 50
-    })
+    const rootRef = firebase.database().ref().child('react');
   }
 
   render() {
