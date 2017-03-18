@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import * as firebase from 'firebase';
+//import * as firebase from 'firebase';
+import AddToCart from './AddToCart';
 
 class ProductList extends Component {
 	constructor(props) {
@@ -26,7 +27,7 @@ class ProductList extends Component {
 	}
 	render() {
 		const productList = this.state.products.map(product => {
-			return <li key={ product.id }> { product.name } : { product.price }</li>
+			return <li key={ product.id }> { product.name } : { product.price } euros <AddToCart /></li>
 		});
 		return (
 			<div>
@@ -36,4 +37,4 @@ class ProductList extends Component {
 	}
 }
 
-export default ProductList
+export default ProductList;
