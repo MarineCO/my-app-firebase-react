@@ -5,11 +5,11 @@ import './index.css';
 import * as firebase from 'firebase';
 
 var config = {
-	apiKey: "AIzaSyBhoUrNWErNekjJUoDIzOcGm2kPYi8ZaxU",
-	authDomain: "my-app-firebase-react.firebaseapp.com",
-	databaseURL: "https://my-app-firebase-react.firebaseio.com",
-	storageBucket: "my-app-firebase-react.appspot.com",
-	messagingSenderId: "884979448697"
+    apiKey: "AIzaSyBZFqibKeXW6xbmx52nP6CShYtChswDiDw",
+    authDomain: "my-app-firebase-react-91002.firebaseapp.com",
+    databaseURL: "https://my-app-firebase-react-91002.firebaseio.com",
+    storageBucket: "my-app-firebase-react-91002.appspot.com",
+    messagingSenderId: "359130158949"
 };
 firebase.initializeApp(config);
 
